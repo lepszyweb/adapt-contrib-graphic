@@ -10,7 +10,7 @@
       "properties": {
         "_supportedLayout": {
           "type": "string",
-          "title": "Supported layout",
+          "title": "Obsługiwany układ",
           "default": "both",
           "enum": [
             "full-width",
@@ -23,7 +23,7 @@
         },
         "instruction": {
           "type": "string",
-          "title": "Instruction",
+          "title": "Instrukcja",
           "default": "",
           "_adapt": {
             "translatable": true
@@ -34,14 +34,14 @@
           "title": "Graphic",
           "default": {},
           "required": [
-            "large",
-            "small"
+            "Duże",
+            "Małe"
           ],
           "properties": {
             "alt": {
               "type": "string",
-              "title": "Alternative text",
-              "description": "A description of the image; required when it has meaning that must be conveyed to the learner. For 'decorative' images, leave this blank",
+              "title": "Tekst alternatywny",
+              "description": "Opis obrazka; wymagany, gdy ma on znaczenie, które musi być przekazane uczącemu się. W przypadku obrazów 'dekoracyjnych' należy pozostawić to pole puste",
               "default": "",
               "_adapt": {
                 "translatable": true
@@ -50,8 +50,8 @@
             "large": {
               "type": "string",
               "isObjectId": true,
-              "title": "Large",
-              "description": "The large sized image for desktop devices",
+              "title": "Duże",
+              "description": "Dbraz w dużym rozmiarze dla urządzeń stacjonarnych",
               "_backboneForms": {
                 "type": "Asset",
                 "media": "image"
@@ -60,8 +60,8 @@
             "small": {
               "type": "string",
               "isObjectId": true,
-              "title": "Small",
-              "description": "The small sized image for mobile devices",
+              "title": "Małe",
+              "description": "Mały rozmiar obrazu dla urządzeń mobilnych",
               "_backboneForms": {
                 "type": "Asset",
                 "media": "image"
@@ -69,8 +69,8 @@
             },
             "attribution": {
               "type": "string",
-              "title": "Attribution",
-              "description": "Text to be displayed as an attribution",
+              "title": "Atrybucja",
+              "description": "Tekst, który ma być wyświetlany jako atrybut",
               "default": "",
               "_adapt": {
                 "translatable": true
