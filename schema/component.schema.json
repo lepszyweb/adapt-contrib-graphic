@@ -51,7 +51,7 @@
               "type": "string",
               "isObjectId": true,
               "title": "Duże",
-              "description": "Dbraz w dużym rozmiarze dla urządzeń stacjonarnych",
+              "description": "Obraz w dużym rozmiarze dla urządzeń stacjonarnych",
               "_backboneForms": {
                 "type": "Asset",
                 "media": "image"
